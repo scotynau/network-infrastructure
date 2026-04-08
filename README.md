@@ -22,9 +22,9 @@ graph TD
         WiFi[WiFi - 192.168.1.128/25]
     end
 
-    subgraph Hyperlab_Net [hyperlab.es - Ricardo]
+    subgraph Hyperlab_Net [hyperlab.es]
         Flint2[OpenWRT Flint 2 - 10.0.0.3]
-        MT_Ric[MikroTik hAP ax3]
+        MT_Ric[MikroTik CRS326]
         RLAN[LAN - 192.168.10.0/24]
         RWiFi[WiFi - 192.168.20.0/24]
         RDMZ[DMZ - 192.168.30.0/24]
@@ -53,7 +53,7 @@ graph TD
 - **LAN:** 192.168.1.0/25
 - **WiFi:** 192.168.1.128/25
 
-### hyperlab.es (OpenWRT / Ricardo)
+### hyperlab.es (OpenWRT)
 - **Túnel VPN:** 10.0.0.3 (Wireguard)
 - **LAN:** 192.168.10.0/24
 - **WiFi:** 192.168.20.0/24
